@@ -78,3 +78,23 @@ button39 = InlineKeyboardButton(text = "Professional certificate", callback_data
 keyboard13 = InlineKeyboardMarkup().add(button37).add(button38).add(button39) 
 
 
+button40 = InlineKeyboardButton(text = "Texnika va texnologiya", callback_data="texnika")
+button41 = InlineKeyboardButton(text = "Iqtisodiyot", callback_data="iqtisodiyot")
+button42 = InlineKeyboardButton(text = "Tibbiyot", callback_data="tibbiyot")
+button43 = InlineKeyboardButton(text = "Pedagogika", callback_data="pedagogika")
+keyboard14 = InlineKeyboardMarkup().add(button40).add(button41).add(button42).add(button43)
+
+
+button44 = InlineKeyboardButton(text = "Техника и технология", callback_data="техника")
+button45 = InlineKeyboardButton(text = "Экономика", callback_data="экономика")
+button46 = InlineKeyboardButton(text = "Медицина", callback_data="медицина")
+button47 = InlineKeyboardButton(text = "Педагогика", callback_data="педагогика")
+keyboard15 = InlineKeyboardMarkup().add(button44).add(button45).add(button46).add(button47)
+
+
+button48 = InlineKeyboardButton(text = "Technology", callback_data="technology")
+button49 = InlineKeyboardButton(text = "Economy", callback_data="economy")
+button50 = InlineKeyboardButton(text = "Medicine", callback_data="medicine")
+button51 = InlineKeyboardButton(text = "Pedagogy", callback_data="pedagogy")
+keyboard16 = InlineKeyboardMarkup().add(button48).add(button49).add(button50).add(button51)
+
